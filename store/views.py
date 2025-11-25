@@ -1,3 +1,4 @@
+from django.db import models
 from rest_framework import viewsets, permissions
 from .models import Category, Product, Order
 from .serializers import CategorySerializer, ProductSerializer, OrderSerializer
